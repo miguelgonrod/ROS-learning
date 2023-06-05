@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='miguel',
-    maintainer_email='miguel@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='miguel angel gonzalez rodriguez',
+    maintainer_email='miguelgonrod2004@gmail.com',
+    description='This is my first program in python3 for ros 2',
+    license='BSD 3',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "py_node = my_py_pkg.my_first_node:main"
         ],
     },
 )

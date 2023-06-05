@@ -3,9 +3,9 @@
 <package format="3">
   <name>my_cpp_pkg</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="miguel@todo.todo">miguel</maintainer>
-  <license>TODO: License declaration</license>
+  <description>This is my first node in c++ for ros 2</description>
+  <maintainer email="miguelgonrod2004@gmail.com">miguel angel gonzalez rodriguez</maintainer>
+  <license>BSD 3</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
