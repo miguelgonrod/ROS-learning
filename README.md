@@ -7,22 +7,23 @@
 * [Licence](#licence)
 
 ## Description
-In this repo I will upload my attempts and codes I make to learn ROS 1
+In this branch I will upload my attempts and codes I make to learn ROS 2
 
 ## Technologies
-* ROS: noetic
+* ROS: melodic
 * Python: 3.8.10
 * C++ 11
 
 ## Setup
 To run my codes You will have to clone this repo
 ```
-$ sudo apt install ros-noetic-desktop-full
+$ sudo apt install ros-melodic-desktop-full
 $ git clone https://github.com/miguelgonrod/ROS-learning
 $ cd ROS-learning
-$ catkin_make
-$ source devel/setup.bash
-$ rosrun [package] [node]
+$ git checkout ros2
+$ colcon build
+$ source install/local_setup.bash
+$ ros2 run [package] [node]
 ```
 
 ## Licence
