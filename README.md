@@ -17,9 +17,9 @@ In this branch I will upload my attempts and codes I make to learn ROS 2
 ## Setup
 To run my codes You will have to clone this repo
 ```
-$ sudo apt install ros-melodic-desktop-full
-$ git clone https://github.com/miguelgonrod/ROS-learning
-$ cd ROS-learning
+$ sudo apt install ros-humble-desktop-full
+$ git clone https://github.com/miguelgonrod/ROS2-learning
+$ cd ROS2-learning
 $ git checkout ros2
 $ colcon build
 $ source install/local_setup.bash
