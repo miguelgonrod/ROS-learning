@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='miguel angel gonzalez rodriguez',
-    maintainer_email='miguelgonrod2004@gmail.com',
+    maintainer_email='miguel_gonzalezr@ieee.org',
     description='This is my first program in python3 for ros 2',
     license='BSD 3',
     tests_require=['pytest'],
@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             "py_node = my_py_pkg.my_first_node:main",
             "robot_news_station = my_py_pkg.robot_news_station:main",
-            "smartphone = my_py_pkg.smartphone:main"
+            "smartphone = my_py_pkg.smartphone:main",
+            "number_publisher = my_py_pkg.number_publisher:main",
+            "number_counter = my_py_pkg.number_counter:main"
         ],
     },
 )
